@@ -1,0 +1,20 @@
+==17542== Memcheck, a memory error detector
+==17542== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17542== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17542== Command: ./testListSetUnion
+==17542== 
+==17542== 
+==17542== HEAP SUMMARY:
+==17542==     in use at exit: 48 bytes in 3 blocks
+==17542==   total heap usage: 39 allocs, 36 frees, 17,254 bytes allocated
+==17542== 
+==17542== LEAK SUMMARY:
+==17542==    definitely lost: 48 bytes in 3 blocks
+==17542==    indirectly lost: 0 bytes in 0 blocks
+==17542==      possibly lost: 0 bytes in 0 blocks
+==17542==    still reachable: 0 bytes in 0 blocks
+==17542==         suppressed: 0 bytes in 0 blocks
+==17542== Rerun with --leak-check=full to see details of leaked memory
+==17542== 
+==17542== For counts of detected and suppressed errors, rerun with: -v
+==17542== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

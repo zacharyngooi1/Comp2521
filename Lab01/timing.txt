@@ -1,0 +1,31 @@
+Input	Initial	Has	Number	AvgTime	AvgTime
+Size	Order	Dups	of runs	forusel	forsort
+5000	random	no	10	0.189	0.006
+5000	sorted	no	10	0.205	0.005
+5000	reverse	no	10	0.028	0.004
+5000	random	yes	10	0.184	0.01
+5000	sorted	yes	10	0.046	0.007
+5000	reverse	yes	10	0.024	0.006
+10000	random	no	10	0.38 	0.01
+10000	sorted	no	10	0.02	0.0068
+10000	reverse	no	10	0.015	0.0067
+10000	random	yes	10	0.514	0.0188
+10000	sorted	yes	10	0.033	0.008
+10000	reverse	yes	10	0.023	0.007
+50000   random  no  10  15.78   0.048
+50000	sorted	no	10	0.092	0.014
+50000	reverse	no	10	0.102	0.017
+50000	random	yes	10	15.86	0.036
+50000	sorted	yes	10	0.097	0.013
+50000	reverse	yes	10	0.089	0.023
+
+The sort -n function only dffers slightly for all timings taken to sort the input other than the random inputs which are significantly higher than the sorted and reverse-sorted inputs
+with the longest time taken with random integer duplicates in a size of 50000. The longest time taken seems to be when the values given are in random order. This amy be due to the 
+algorithm having to be re-arrange more of the values by repeatedly going back through the while loop look through the list to find the right insertion point.
+Duplicates slightly alters the results by increasing the timing taken for all tests when duplicates are present.
+Reversing seems to allow the list to be sorted at a much faster time compared to when the list is already sorted. Also,
+When the list is already sorted, the function takes a shorter time to sort compared to when it is not sorted.
+
+In conclusion, the UseIntList timing grows exponentially in the time taken to sort through the list due to the growing complexity of the program where the function has two
+while loops going through the unsorted list, then the sorting function, giving it a O(n^(2)) where the time taken to sort through the list is dependant on the value of n.
+

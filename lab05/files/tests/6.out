@@ -1,0 +1,49 @@
+Runway Landing Scheduler v1.0
+Enter ? to see the list of commands.
+> + 3 18 1200
+Successfully added Mar 18 12:00 to the schedule!
+> + 3 18 1200
+Couldn't add Mar 18 12:00 to the schedule!
+> + 2 18 1100
+Successfully added Feb 18 11:00 to the schedule!
+> + 2 18 1105
+Couldn't add Feb 18 11:05 to the schedule!
+> + 1 12 1000
+Successfully added Jan 12 10:00 to the schedule!
+> + 1 12 1030
+Successfully added Jan 12 10:30 to the schedule!
+> + 2 18 1100
+Couldn't add Feb 18 11:00 to the schedule!
+> + 2 18 1105
+Couldn't add Feb 18 11:05 to the schedule!
+> + 1 12 1000
+Couldn't add Jan 12 10:00 to the schedule!
+> + 1 12 1030
+Couldn't add Jan 12 10:30 to the schedule!
+> + 5 30 1100
+Successfully added May 30 11:00 to the schedule!
+> + 4 30 1100
+Successfully added Apr 30 11:00 to the schedule!
+> + 8 10 1450
+Successfully added Aug 10 14:50 to the schedule!
+> + 18 10 1500
+Invalid time!
+> + 8 10 1500
+Couldn't add Aug 10 15:00 to the schedule!
+> + 163533
+Usage: + <month> <day> <hhmm>
+> + 13 13 1000
+Invalid time!
+> + 8 50 1000
+Invalid time!
+> + 9 4 9999
+Invalid time!
+> s 1
+Jan 12 10:00
+Jan 12 10:30
+Feb 18 11:00
+Mar 18 12:00
+Apr 30 11:00
+May 30 11:00
+Aug 10 14:50
+> 
